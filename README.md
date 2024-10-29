@@ -42,13 +42,23 @@ To get the Byte Bazaar platform up and running locally, follow these steps:
      ```bash
      npm install
      ```
+4. **Setting Up Redis Stack with Docker Desktop on Windows**
+   - **Pre-requisite:**
+      - [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop/)
 
-4. **Adding .env files**:
+   - **Installation Guide (For Windows)**
+     1. Download and install Docker Desktop from the official [Docker Desktop website](https://www.docker.com/products/docker-desktop/).
+     2. **Run Redis in Docker:**
+        Open the Docker console and execute the following command to run Redis Stack:
+        ```bash
+        docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
+        ```
 
+5. **Adding .env files**:
    - Copy the .env file of frontend in byte-bazar-frontend
    - Copy the .env file of backend in server folder.
 
-5. **Run the Application**:
+6. **Run the Application**:
    - To run the frontend and backend simultaneously, follow these steps:
      - Start the frontend:
        ```bash
@@ -60,7 +70,7 @@ To get the Byte Bazaar platform up and running locally, follow these steps:
        cd Byte-Bazaar-Backend/server
        nodemon run dev
        ```
-6. **Login Credentials**:
+7. **Login Credentials**:
    #### Admin Panel
    To access the admin panel change the URL to: "http://localhost:5173/bytebazaar/admin-login"
    - **Email**: `admin@gmail.com`
@@ -69,3 +79,9 @@ To get the Byte Bazaar platform up and running locally, follow these steps:
    #### User Panel
    - **Email**: `admin@gmail.com`
    - **Password**: `Admin123#`
+
+## For Any Queries:
+- **Abiha**: rizvi4400977@cloud.neduet.edu.pk
+- **Hamna**: hamnaaamir593@gmail.com
+- **Maham**: mahamtkhan2@gmail.com
+
