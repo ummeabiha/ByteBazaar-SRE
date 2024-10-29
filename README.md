@@ -60,7 +60,12 @@ To get the Byte Bazaar platform up and running locally, follow these steps:
        cd Byte-Bazaar-Backend/server
        nodemon run dev
        ```
-6. **Login Credentials**:
-   TO access the admin panel, change the URL to "http://localhost:5173/bytebazaar/admin-login"
-      - email: admin@gmail.com
-      - password: Admin123#
+## 6. Login Credentials
+
+**Admin Panel:** To access the admin panel, change the URL to "http://localhost:5173/bytebazaar/admin-login"
+   - email: admin@gmail.com
+   - password: Admin123#
+
+**User Panel:**
+   - email: admin@gmail.com
+   - password: Admin123#
