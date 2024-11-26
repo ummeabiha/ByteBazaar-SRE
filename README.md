@@ -68,7 +68,7 @@ To get the Byte Bazaar platform up and running locally, follow these steps:
      - Start the backend:
        ```bash
        cd Byte-Bazaar-Backend/server
-       nodemon run dev
+       nodemon index.js
        ```
 7. **Login Credentials**:
    #### Admin Panel
